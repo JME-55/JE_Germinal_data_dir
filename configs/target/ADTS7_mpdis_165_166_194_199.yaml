@@ -1,1 +1,6 @@
-
+# @package target
+target_name: "adamts7"
+target_pdb_path: "pdbs/adamts7.pdb"
+target_chain: "A"
+binder_chain: "B"
+target_hotspots: "A165,A166,A194,A199"

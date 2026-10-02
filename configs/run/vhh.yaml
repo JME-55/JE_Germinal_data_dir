@@ -2,13 +2,21 @@
 # VHH (nanobody) run configuration
 
 # General run settings
-type: "caplacizumab"
+type: "vobarilizumab"
 cdr_lengths: [11, 8, 10]
 fw_lengths: [25,17,38,14]
 pregenerate_seeds: false
 vh_first: null # not needed for nanobodies
-vh_len: null # not needed for nanobodies  
+vh_len: null # not needed for nanobodies
 vl_len: null # not needed for nanobodies
+
+# Hardcoded sequence motifs for this round (read by the fixed-motif patch
+# in design.py -- see germinal_fixed_motifs.py). Change these values only
+# to try a different motif/length; no Python edit needed.
+fixed_sequences:
+  cdr3_nterm: "AA"      # first 2 residues of CDR3
+  cdr3_cterm: "FDY"     # last 3 residues of CDR3
+  cterm_fw_motif: "SS"  # last 2 residues of the full sequence (FR4 end)
 
 # Loss function parameters
 weights_plddt: 1.0

@@ -1,0 +1,6 @@
+# @package target
+target_name: "adamts7_mpdis"
+target_pdb_path: "pdbs/adamts7_mpdis.pdb"
+target_chain: "A"
+binder_chain: "B"
+target_hotspots: "A181,A184,A271"

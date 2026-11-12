@@ -4,6 +4,8 @@ a couple notes:
 
 When you want to target new residues, you must create a new .yaml file in the /target/ file . Follow the same format as the other .yaml files but chagne the amino acids being targetted. Be sure to name it ending in .yaml 
 
+when changing the experiment name in the ipynb file in jupyter notebooks please use this consistent nomenclature : INITIALS_target_amino acids hotspot_framework_run number  eg JE_adamts7mpdis_A181_A184_A271_capla_1
+
 I have added two HRU home grown frameworks sequences: Losizumab and Ahanizumab (note* these are not real drugs). Both are loosely based on caplacuziman with a couple residue changes to suit our requirements. Below are the sequences and framework lengths. It is best when using these frameworks to change the cdr and fw lengths to these values. although it is not necessary:
 
 

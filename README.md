@@ -45,6 +45,6 @@ Vobarilizumab fw_lengths: [25, 14, 37, 11]
 
 I recommend only using these frameworks (+Losizumab and Ahanizumab)
 
-If for any reason, defining these in the vhh.yaml doesnt work, select nb and change the nb sequence to the sequence you desire. its longer, but it should work
+Note: submit jobs chagning type to the pdb and see if any accepted designs. If for any reason, defining these in the vhh.yaml doesnt work, select nb and change the nb sequence to the sequence you desire. its longer, but it should work
 
-Happy Designing!
+Happy Designing! (12.11.26)

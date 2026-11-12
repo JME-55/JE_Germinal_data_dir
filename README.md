@@ -47,6 +47,6 @@ Vobarilizumab fw_lengths: [25, 14, 37, 11]
 
 I recommend only using these frameworks (+Losizumab and Ahanizumab)
 
-Note: submit jobs chagning type to the pdb and see if any accepted designs. If for any reason, defining these in the vhh.yaml doesnt work, select nb and change the nb sequence to the sequence you desire. its longer, but it should work
+Note: to submit jobs with a different framework you must do a slightly hacky method for germinal to use the correct frameowrk sequence. You have to copy and paste the atomic coordinate values found in each file and paste into and replace the scfv.pdb. Then change 'type' in the vhh.yaml to the name of your desired frameowrk. This is a bit long but should work. we are working with Miguel at ARC( who requires fundng) to change the germinal hardcode to make this process smoother. Alternatively If for any reason, defining these in the vhh.yaml doesnt work, select nb and change the nb sequence to the sequence you desire and define 'type'=nb. its longer, but it should work
 
 Happy Designing! (12.11.26)

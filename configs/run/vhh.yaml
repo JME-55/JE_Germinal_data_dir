@@ -2,9 +2,9 @@
 # VHH (nanobody) run configuration
 
 # General run settings
-type: "caplacuzimab"
-cdr_lengths: [11, 8, 10]
-fw_lengths: [25,17,38,14]
+type: "Losizumab"
+cdr_lengths: [11, 8, 5]
+fw_lengths: [25,17,40,17]
 pregenerate_seeds: false
 vh_first: null # not needed for nanobodies
 vh_len: null # not needed for nanobodies

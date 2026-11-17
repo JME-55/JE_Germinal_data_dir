@@ -1,3 +1,9 @@
+<img width="658" height="503" alt="image" src="https://github.com/user-attachments/assets/4ef81cf5-ff2c-4dce-8e28-3c69c3fae59f" />
+
+
+
+
+
 Hello , Welcome to this forked Germinal repo to work on UAI servers
 
 a couple notes:

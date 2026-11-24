@@ -3,8 +3,8 @@
 
 # General run settings
 type: "nb"
-cdr_lengths: [11, 8, 10]
-fw_lengths: [25,17,38,17]
+cdr_lengths: [11, 8, 21]
+fw_lengths: [25,17,35,11]
 pregenerate_seeds: false
 vh_first: null # not needed for nanobodies
 vh_len: null # not needed for nanobodies

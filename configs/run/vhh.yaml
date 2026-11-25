@@ -69,7 +69,7 @@ mpnn_weights: "abmpnn"
 
 # Structure prediction settings
 structure_model: "protenix"        # or "af3" or "chai"
-af3_structure_select_mode: "worst"  # or "best"
+af3_structure_select_mode: "best"  # or "worst"
 msa_mode: "target"
 
 # AF3 configuration (required when structure_model == "af3")
